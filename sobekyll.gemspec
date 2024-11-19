@@ -11,5 +11,5 @@ Gem::Specification.new do |s|
   end
   s.homepage    = "https://github.com/boybeak/sobekyll"
   s.required_ruby_version = ">= 2.5.0"
-  s.add_runtime_dependency "jekyll", "~> 4.0"
+  s.add_runtime_dependency "jekyll", "~> 3.10.0"
 end

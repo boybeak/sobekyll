@@ -2,7 +2,7 @@
 layout: default
 ---
 <ul style="list-style: none; padding: 0; margin: 0; flex: 1;">
-  {% for post in paginator.posts %}
+  {% for post in site.posts %}
   {% include post-item.html post=post %}
   {% endfor %}
 </ul>
