@@ -1,3 +1,9 @@
+PATH
+  remote: .
+  specs:
+    sobekyll (0.1.0)
+      jekyll (~> 4.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -64,8 +70,8 @@ GEM
       sass-embedded (~> 1.54)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    kramdown (2.4.0)
-      rexml
+    kramdown (2.5.1)
+      rexml (>= 3.3.9)
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.4)
@@ -165,6 +171,8 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4.3.0)
   jekyll-paginate
+  rouge
+  sobekyll!
   webrick (~> 1.7)
 
 BUNDLED WITH
