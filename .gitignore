@@ -1,3 +1,4 @@
 /site
 Gemfile.lock
 sobekyll-*.*.*.gem
+**/*.DS_Store

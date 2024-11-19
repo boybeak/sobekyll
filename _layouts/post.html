@@ -19,7 +19,7 @@ layout: default
   </div>
   
   <p class="post-meta">
-    {% if page.tags %}
+    {% if page.tags and post.tags.size > 0 %}
     <s-icon style="width: 20px; height: 20px;">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
         <path
@@ -33,7 +33,7 @@ layout: default
     <space style="margin-right: 8px;"></space>
     {% endif %}
 
-    {% if page.categories %}
+    {% if page.categories and post.categories.size > 0 %}
     <s-icon style="width: 20px; height: 20px;">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
         <path
