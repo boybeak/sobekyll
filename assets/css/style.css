@@ -96,4 +96,6 @@ article {
     padding-left: 8px;
     padding-right: 8px;
     margin-bottom: 8px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
